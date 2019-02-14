@@ -9,5 +9,5 @@ template '/etc/haproxy/haproxy.cfg' do
 end
 
 service 'haproxy' do
-  action [ :start, :enable ]
+  action [ :restart, :enable ]
 end

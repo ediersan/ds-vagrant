@@ -80,5 +80,5 @@ backend static
 backend nodes
     balance     roundrobin
     <% @web_servers.each.with_index(1) do |web_server, index| %>
-    server app<%= index %> <%= web_server[:ip] %>:80 check
+    server app<%= index %> <%= web_server[:ip] %> check
     <% end %>
