@@ -1,0 +1,307 @@
+    1  exit
+    2  vagrant up --provision
+    3  curl 127.0.0.1:8000
+    4  curl 127.0.0.1:8080
+    5  tree
+    6  curl 127.0.0.1:8080
+    7  http 127.0.0.1:8080
+    8  mkdir cookbooks/httpd/attributes/
+    9  vi cookbooks/httpd/attributes/default.rb
+   10  vi cookbooks/httpd/recipes/httpd_copy_files.rb
+   11  vi cookbooks/httpd/attributes/default.rb
+   12  vagrant up --provision
+   13  http 127.0.0.1:8080
+   14  git status
+   15  git add cookbooks/
+   16  git commit -m "workshop 2, vagrant and chef together"
+   17  git push -f fork
+   18  git push forkj
+   19  git push fork
+   20  git branch
+   21  git push -u origin ediersan/workshop2
+   22  git push ediersan/workshop2
+   23  git push
+   24  git push
+   25  git push origin ediersan/workshop2
+   26  git remote -v
+   27  git remote add fork https://github.com/ediersan/sd2019a-workshop2.git/
+   28  git branch
+   29  git push fork
+   30  vi ~/.zshrc
+   31  source ~/.zshrc
+   32  ls
+   33  cd edier
+   34  exit
+   35  tmux
+   36  python3 --version
+   37  venv --version
+   38  ls
+   39  cd edier
+   40  ls
+   41  cd sd2019a-workshop2
+   42  ls
+   43  cd cookbooks
+   44  ls
+   45  cd httpd
+   46  ls
+   47  tree
+   48  cd templates
+   49  ls
+   50  vi default
+   51  cd recipes
+   52  ls
+   53  cd ..
+   54  cd recipes
+   55  ls
+   56  vi default.rb
+   57  ls
+   58  vi httpd_config.rb
+   59  vi httpd_install.rb
+   60  vi hhtpd_copy_files.rb
+   61  git init
+   62  cd ..}
+   63  cd ..
+   64  tree
+   65  cd sd2019a-workshop2
+   66  tree
+   67  cd cookbooks
+   68  tree
+   69  cd recipes
+   70  cd httpd
+   71  tree
+   72  cd recipes
+   73  ls
+   74  vi httpd_copy_files.rb
+   75  vagrant up
+   76  tree
+   77  vi httpd_copy_files.rb
+   78  wget https://raw.githubusercontent.com/ICESI/ds-vagrant/master/centos7/04_chef_files_and_templates/cookbooks/httpd/recipes/httpd_copy_files.rb
+   79  ls
+   80  rm httpd_copy_files.rb
+   81  mv httpd_copy_files.rb.1 httpd_copy_files.rb
+   82  ls
+   83  vi httpd_copy_files.rb
+   84  vagrant up
+   85  vagrant provision
+   86  tree
+   87  vi httpd_copy_files.rb
+   88  vagrant provision
+   89  vagrant up
+   90  vagrant --provision
+   91  vagrant up
+   92  vagrant provision
+   93  ls -l
+   94  vi httpd_copy_files.rb
+   95  vagrant provision
+   96  ls
+   97  cd ..
+   98  vagrant destroy
+   99  ls
+  100  git status
+  101  cd ..
+  102  ls -l
+  103  git add cookbooks
+  104  git commit -m "se añade configuración alternativa en l archivo http_copy_files.rb"
+  105  git status
+  106  git branch
+  107  git push ediersan/workshop2
+  108  git push -u ediersan/workshop2
+  109  git push -u origin ediersan/workshop2
+  110  git push -u ediersan/workshop2
+  111  git push ediersan/workshop2
+  112  git push -u ediersan/workshop2
+  113  git push -u workshop2
+  114  git push -u origin workshop2
+  115  git branch
+  116  git push -u origin ediersan/workshop2
+  117  git push origin ediersan/workshop2
+  118  cd ..
+  119  ls
+  120  cd edier
+  121  git status
+  122  ls -l
+  123  cd sd2019a-workshop2
+  124  ls
+  125  ls -l
+  126  wget https://raw.githubusercontent.com/ediersan/ds-vagrant/master/centos7/05_chef_load_balancer_example/Vagrantfile
+  127  ls
+  128  vi Vagrantfile
+  129  vi Vagrantfile.1
+  130  rm Vagrantfile
+  131  vm Vagrantfile
+  132  vi Vagrantfile
+  133  cd ..
+  134  cd..
+  135  ls
+  136  cd ..
+  137  git remote -v
+  138  ls
+  139  cd edier
+  140  ls
+  141  git remote -v
+  142  git branch
+  143  git remote -v
+  144  git status
+  145  git branch
+  146  cd sd2019a-workshop2
+  147  git status
+  148  git branch
+  149  git remote
+  150  git log
+  151  git branch
+  152  git log
+  153  git checkout a5dbb
+  154  git status
+  155  git push edirsan/workshop2
+  156  git push ediersan/workshop2
+  157  git push ediersan/workshop2 HEAD:ediersan/workshop2
+  158  git push -u ediersan/workshop2
+  159  git branch
+  160  git branch edirsan/workshop2
+  161  git branch ediersan/workshop2
+  162  git checkout ediersan/workshop2
+  163  git push ediersan/workshop2
+  164  git push -u ediersan/workshop2
+  165  git push origin ediersan/workshop2
+  166  git push ediersan/workshop2
+  167  sudo git push ediersan/workshop2
+  168  sudo git push fork
+  169  cd ..
+  170  ls
+  171  cd edier
+  172  ls
+  173  git clone https://github.com/ediersan/ds-centos-mirror.git
+  174  ls
+  175  cd ds-centos-mirror
+  176  vagrant up
+  177  ls 
+  178  cd ..
+  179  ls
+  180  cd sd2019a-workshop2
+  181  git checkout
+  182  git branch
+  183  git branch master
+  184  git chekout master
+  185  git checkout master
+  186  ls
+  187  cd ..
+  188  git checkout ediersan/workshop2
+  189  git branch
+  190  ls
+  191  cd sd2019a-workshop2
+  192  git branch
+  193  git branch ediersan/workshop2
+  194  git checkout ediersan/workshop2
+  195  cd ..
+  196  ls
+  197  git status
+  198  git branch
+  199  git clone https://github.com/ediersan/ds-vagrant.git
+  200  ls
+  201  cd ds-vagrant
+  202  ls
+  203  cd centos7
+  204  ls
+  205  cd 05_chef_load_balancer_example
+  206  ls
+  207  vi Vagrantfile
+  208  vagrant up
+  209  http 192.168.56.101
+  210  vi Vagrantfile
+  211  http 192.168.56.102
+  212  http 192.168.56.103
+  213  http 192.168.56.101
+  214  ls -l
+  215  vagrant status
+  216  cd ..
+  217  ls
+  218  cd ..
+  219  ls
+  220  cd ..
+  221  ls
+  222  cd /etc
+  223  ls
+  224  cd httpd
+  225  cd haproxy
+  226  systemctl status haproxy
+  227  cd /
+  228  cd -
+  229  ls
+  230  cd /home/edier
+  231  cd /home
+  232  ls
+  233  cd distribuidos
+  234  ls
+  235  cd edier
+  236  ls
+  237  cd ds-
+  238  cd ds-vagrant
+  239  ls
+  240  cd centos7
+  241  ls
+  242  cd 05_chef_load_balancer_example
+  243  ls
+  244  vagrant ssh lb_server
+  245  http 192.168.56.101
+  246  pwd
+  247  $?
+  248  pwdl
+  249  $?
+  250  http 192.168.56.101
+  251  http 192.168.56.103
+  252  http 192.168.56.102
+  253  vagrant ssh lb_server
+  254  http 127.0.0.1:8080
+  255  http 192.168.56.10|
+  256  http 192.168.56.101
+  257  vi Vagrantfile
+  258  ls
+  259  vagrant status
+  260  vagrant ssh wb_server_1
+  261  ls
+  262  mkdir -p cookbooks/httpd/files/default
+  263  mv httpd.conf cookbooks/httpd/files/default
+  264  vi cookbooks/httpd/files/default
+  265  vi cookbooks/httpd/files/default/httpd.conf
+  266  ls
+  267  vi cookbooks/httpd/recipes/httpd_copy_files.rb
+  268  vi cookbooks/httpd/recipes/default.rb
+  269  vi cookbooks/httpd/recipes/httpd_config.rb
+  270  gedit cookbooks/httpd/recipes/httpd_config.rb
+  271  vi cookbooks/httpd/recipes/httpd_copy_files.rb
+  272  vi Vagrantfile
+  273  vi cookbooks/haproxy/templates/default/haproxy.erb
+  274  vi Vagrantfile
+  275  vagrant up --provision
+  276  http 192.168.56.101
+  277  curl 192.168.56.101
+  278  curl -v 192.168.56.101
+  279  curl -v 192.168.56.103
+  280  curl -v 192.168.56.102
+  281  curl -v 192.168.56.102:8080
+  282  vagrant status
+  283  vagrant ssh wb_server_1
+  284  vagrant ssh wb_server_2
+  285  curl -v 192.168.56.102:8080
+  286  curl -v 192.168.56.103:8080
+  287  curl -v 192.168.56.102:8080
+  288  curl -v 192.168.56.101
+  289  vagrant ssh lb_server
+  290  curl -v 192.168.56.101
+  291  vi cookbooks/httpd/recipes/httpd_config.rb
+  292  vi cookbooks/haproxy/recipes/haproxy_config.rb
+  293  vagrant up --provision
+  294* ^B
+  295* history > listado.txt
+  296* cat listado.txt
+  297  curl -v 192.168.56.101
+  298  ls
+  299  cd ..
+  300  ls
+  301  cd ..
+  302  ls
+  303  vi .git/config
+  304  gaa
+  305  alias
+  306  gcmsg "Update balancer example"
+  307  ggp
